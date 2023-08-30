@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "visualizating geospatial data in python"
+version = "0.1.0"
+description = "Visualizating geospatial data in Python course (Datacamp)"
+authors = ["Eduardo Melendez <edgame127@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+geopandas = "^0.13.2"
+pyqt6 = "^6.5.2"
+matplotlib = "^3.7.2"
+folium = "^0.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
